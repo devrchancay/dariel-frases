@@ -3,6 +3,7 @@ import {graphql, StaticQuery} from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
+
 const IndexPage = () => (
   <Layout>
   <StaticQuery
@@ -12,7 +13,6 @@ const IndexPage = () => (
           edges {
             node {
               data {
-                nombre
                 frase
                 ejemplo
               }
